@@ -1,0 +1,1 @@
+Note that to work it needs a WebJarFilter as proposed on http://markmail.org/thread/2pkg6swsgid57tdf
