@@ -47,10 +47,17 @@
     </developer>
   </developers>
   <properties>
+    <platform.version>${commons.version}</platform.version>
     <!-- Don't run CLIRR here since there's no Java code. -->
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-webjars</artifactId>
+      <version>${platform.version}</version>
+      <scope>runtime</scope>
+    </dependency>
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>angularjs</artifactId>
